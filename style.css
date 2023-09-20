@@ -1,14 +1,19 @@
 *{
     box-sizing: border-box;
-}
-body{
     margin: 0;
     padding: 0;
+}
+html body{
+    height: 100%;
 }
 @media screen and (max-width:700px){
     body{
         background-color: rgb(13, 220, 151);
     }
+    .card{
+        flex-wrap: wrap;
+    }
+
 }
 @media screen and (max-height:700px){
     body{
